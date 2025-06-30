@@ -1,0 +1,37 @@
+/* src/components/Footer/Footer.css */
+/* This is the CSS for Footer */
+.footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #fff;
+  padding: 40px 20px 20px;
+  font-family: Arial, sans-serif;
+  margin-top: 2rem;
+}
+
+.footer-section.contact h3 {
+  font-size: 18px;
+  color: #46d0ef;
+  margin-bottom: 10px;
+}
+
+.footer-section.contact p {
+  font-size: 14px;
+  margin: 6px 0;
+  color: #ccc;
+}
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 30px;
+  border-top: 1px solid #000000;
+  padding-top: 15px;
+  font-size: 12px;
+  color: #aaa;
+}
+
+@media (max-width: 600px) {
+  .footer-section.contact {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
