@@ -262,13 +262,13 @@ export default function NewBooks() {
   //   );
   // }
 
-  if (loading) {
-    return (
-      <main>
-        <div className="spinner"></div>
-      </main>
-    );
-  }  
+  // if (loading) {
+  //   return (
+  //     <main>
+  //       <div className="spinner"></div>
+  //     </main>
+  //   );
+  // }  
 
   if (error) {
     return (
