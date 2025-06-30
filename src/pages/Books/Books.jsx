@@ -51,13 +51,13 @@ export default function Books() {
   //   return <main style={{ padding: "2rem" }}><p>Loading books...</p></main>;
   // }
 
-  if (loading) {
-    return (
-      <main>
-        <div className="spinner"></div>
-      </main>
-    );
-  }  
+  // if (loading) {
+  //   return (
+  //     <main>
+  //       <div className="spinner"></div>
+  //     </main>
+  //   );
+  // }  
 
   if (error) {
     return <main style={{ padding: "2rem" }}><p>Error loading books: {error}</p></main>;
