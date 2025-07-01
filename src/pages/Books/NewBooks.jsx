@@ -262,13 +262,13 @@ export default function NewBooks() {
   //   );
   // }
 
-  // if (loading) {
-  //   return (
-  //     <main>
-  //       <div className="spinner"></div>
-  //     </main>
-  //   );
-  // }  
+  if (loading) {
+    return (
+      <main>
+        <div className="spinner"></div>
+      </main>
+    );
+  }  
 
   if (error) {
     return (
@@ -283,16 +283,18 @@ export default function NewBooks() {
       <h2>New Releases</h2>
       {newReleases.length > 0 ? (
         renderBookCarousel(newReleases, newBooksRef, true)
-      ) : (
+      ) : null}        
+      {/* ) : (
         <p>No new releases available.</p>
-      )}
+      )} */}
 
       <h2>Best Sellers</h2>
       {bestSellers.length > 0 ? (
         renderBookCarousel(bestSellers, bestSellersRef, true)
-      ) : (
+      ) : null}        
+      {/* ) : (
         <p>No best sellers available.</p>
-      )}
+      )} */}
     </main>
   );
 }
