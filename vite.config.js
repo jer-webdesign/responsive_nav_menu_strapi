@@ -4,7 +4,8 @@ import react from '@vitejs/plugin-react'
 
 export default defineConfig({
   plugins: [react()],
-  base: '/responsive_nav_menu_strapi/',
+  base: '/',
+  // base: '/responsive_nav_menu_strapi/',
   server: {
     proxy: {
       '/api': {
