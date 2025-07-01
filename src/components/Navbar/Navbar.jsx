@@ -3,7 +3,7 @@
 
 import React, { useState } from "react";
 import { Link } from 'react-router-dom';
-import './NavBar.css';
+import './Navbar.css';
 
 import visBookLogo from '/assets/images/vblogo.png';
 import booksIcon from '/assets/images/icons/books-icon.png';
